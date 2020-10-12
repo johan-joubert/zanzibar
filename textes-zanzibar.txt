@@ -1,0 +1,104 @@
+-----------Textes header---------------------------------
+Zanzibar
+Qui sommes-nous
+Notre île
+Photos
+Nos séjours
+Témoignages
+Contact
+-----------Textes bandeau---------------------------------
+ZANZIBAR 
+UN ART DE VIVRE
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+Notre île
+Contactez-nous
+
+-----------Textes Qui sommes-nous---------------------------------
+RELIGIONS ET CROYANCES
+La religion principale à Zanzibar est l'islam (97 %), à dominante sunnite. Les hindouistes constituent une toute petite communauté. Plusieurs minorités religieuses (musulmanes) ont élu domicile à Zanzibar : es ismaéliens (qui vénèrent Ismaël, l'un des descendants du prophète Ali, et dont le chef spirituel et temporel est le célèbre et richissime Aga Khan) et les dawoodis bohras, des Indo-Pakistanais, qui suivent les préceptes du Coran, mais dont la pratique religieuse, marginale, est beaucoup moins dogmatique.
+
+MUSIQUE
+Le taarab (mot arabe signifiant « joie ») est la forme de musique la plus populaire à Zanzibar. C'est un ensemble pouvant compter jusqu'à une quarantaine de musiciens. Les chansons sont des « poèmes chantés » qui mélangent les influences africaines, arabes et indiennes. D'où son originalité.
+
+MYTHE LITTÉRAIRE
+Outre les épices, les ivoires et les esclaves, Zanzibar a exporté des rêves. Zanzibar ! Voilà un nom qui est une magnifique invitation au voyage à lui tout seul. Nombreux sont les écrivains européens (britanniques et français, notamment) qui ont succombé à son nom, rêvant de voir un jour cette île lointaine.
+
+
+-----------Textes notre île---------------------------------
+STONE TOWN
+Ville portuaire, baignée par l’océan Indien, dont le cœur ancien, appelé Stone Town (la ville de pierre) en anglais et Mji Mkongwe (la vieille ville) en kiswahili, constitue le joyau. Ce centre ancien est d’une telle richesse qu’il a été inscrit en 2000 au Patrimoine mondial de l’Unesco.
+
+
+PRISON ISLAND
+L’île de Changuu, en swahili, garde les traces de son passé. Elle fut le point de départ et la zone de transit de nombreux esclaves attendant leur affectation. Aujourd’hui, elle a été investie par de curieux habitants : les tortues géantes d’Aldabra, ilot des Seychelles.
+
+
+PARC JOZANI
+Le parc national s’étend sur 50 kilomètres entre la baie de Chwaka et celle d’Uzi. Cette jungle marécageuse abrite toujours une vie sauvage riche et luxuriante, comprenant notamment deux espèces de singes particulièrement rares : les singes rouges et bleus.
+
+
+-----------Textes galerie photo---------------------------------
+LES FEMMES DE ZANZIBAR
+LA PLAGE DE ZANZIBAR
+LES ÉPICES DE ZANZIBAR
+VILLAGE DE PÊCHEUR À ZANZIBAR
+
+-----------Textes témoignages---------------------------------
+
+ILS ONT ADORÉ
+
+Séjour magnifique et prestations au delà de nos espérances Surtout quand on se retrouve surclassé alors que c' 'est déjà top.
+Emilie du Châtelet
+
+Aventure riche en émotion de par la découverte d'une savane africaine authentique, la vie de sa faune, de très belles rencontres humaines avec notamment les enfants d'une école de masaïs sédentarisé.
+Blaise Pascal
+
+Pour le safari nous avons été accompagnés par un guide extraordinaire très attentionné et cultivé, qui s’est adapté à notre rythme et à nos envies.
+Julia Robinson
+
+
+-----------Textes nos séjours---------------------------------
+IDYLLE À ZANZIBAR
+10 JOURS | 7 NUITS
+A partir de 2350€
+
+Farniente sur les plages de Zanzibar
+Hébergement dans un hôtel de luxe
+Une atmosphère dans le plus pur style zanzibari au cœur des jardins
+De petites attentions tout au long de votre séjour
+Je m'inscris
+
+
+TANZANIE À L’INFINI
+13 JOURS | 10 NUITS
+A partir de 3440€
+
+Le spectacle magnifique de la migration dans le Serengeti
+L’impressionnant cratère du Ngorongoro
+Les plages de Zanzibar
+La vieille ville de Stone Town et ses ruelles aux milles couleurs
+Je m'inscris
+
+
+AU BOUT DE LA TANZANIE
+12 JOURS | 9 NUITS
+A partir de 3600€
+
+La découverte de tous les principaux parcs du pays
+L’impressionnant cratère du Ngorongoro
+Le spectacle magnifique de la migration dans le Serengeti
+Les plages de Zanzibar
+
+Je m'inscris
+
+-----------Textes contact---------------------------------
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+ +255 777 360 982
+
+ Office du Tourisme Stone Town Zanzibar
+
+-----------Textes footer---------------------------------
+
+© Site Zanzibar exercice Arinfo - 2019.

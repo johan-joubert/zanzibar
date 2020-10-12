@@ -1,0 +1,652 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;   
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+hr {
+    width: 100px;
+    color: #2fd5fe;
+    margin-bottom: 35px;
+}
+
+p {
+    line-height: 24px;
+}
+
+.allSection {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+.navTitle {
+    background-color: #000;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+}
+
+#sectionTitleNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* logo */
+
+#logo {
+    font-family: 'Warnes', cursive;
+}
+
+
+/* nav */
+
+.navMenu ul {
+    font-size: 0.9em;
+    display: flex;
+    margin: 0;
+}
+
+.navMenu li {
+    list-style: none;
+    color: #000;
+    margin: 0 8px;
+    padding: 35px 0;
+}
+
+.navMenu li:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+
+    .navTitle{
+        position: fixed;
+    }
+
+    #sectionTitleNav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 50px;
+    }
+
+    .navMenu ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.8em;
+    }
+
+    .navMenu ul li {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+/* main title */
+
+/* .mainTitle {
+    margin: 0;
+    background: linear-gradient(
+        rgba(96, 229, 235, 0.5),
+        rgba(96, 229, 235, 0.3)),
+        url('http://res.cloudinary.com/duqzvuawc/image/upload/c_scale,h_424/v1508813537/clouds_tile_efhbuh.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    height: 700px;
+    animation: clouds_animation 40s linear infinite;
+} */
+
+.mainTitle {
+    margin: 0;
+    background: linear-gradient(
+        rgba(96, 229, 235, 0.5),
+        rgba(96, 229, 235, 0.3)),
+        url('images/header.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+    height: 100vh;
+}
+
+
+/* @keyframes clouds_animation {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -2122px 0;}
+} */
+
+
+#sectionMainTitle {
+    width: 80%;
+    margin: 250px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#zanzibarTitle {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#secondMainTitle {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 3em;
+}
+
+#pDream {
+    margin-top: 8px;
+    color: #fff;
+}
+
+.linkTitle {
+    padding: 10px 30px;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+
+.ourIsland {
+    background-color: #fff;
+    color: #6cbfdd;
+}
+
+.ourIsland:hover {
+    color: #fff;
+    background-color: #6cbfdd;
+    transition: 1s; 
+}
+
+.contactUs:hover {
+    color: #fff;
+    background-color: #6cbfdd;
+    transition: 1s; 
+}
+
+@media screen and (max-width: 980px) {
+    .linkTitle {
+        display: flex;
+        margin: 12px;
+    }
+
+    .mainTitle {}
+}
+
+/* MAIN */
+
+/* qui sommes nous */
+
+.titleWhoAreWe {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+
+#teaAndDescription {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#teaImage {
+    align-self: center;
+    max-width: 30%;
+}
+
+#tea {
+}
+
+#blocDescription {
+    max-width: 40%;
+}
+
+.titleDescription {
+    font-size: 2em;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.description {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+}
+
+.fa-check-circle {
+    color: red;
+    margin-right: 15px;
+    font-size: 2em;
+    transition: all 1s;
+}
+
+.fa-check-circle:hover {
+    transform: translate(12px);
+}
+
+@media screen and (max-width: 980px) {
+    #tea {
+        display: none;
+    }
+
+    #teaAndDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+}
+
+/* notre île */
+
+#sectionOurIsland {
+    background-color: #0ce0f5;
+}
+
+#titleOurIsland {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#threeOption {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 60px;
+}
+
+.oneIsland {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border: 3px solid #eaeaea;
+}
+
+.oneIsland div{
+    padding: 40px 10px;
+}
+
+.oneIsland:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.imageOurIsland {
+    display: block;
+    margin: 0 auto;
+}
+
+.titleExplication {
+    text-align: center;
+    margin: 0;
+}
+
+.explication {
+    font-size: 1.1em;
+    margin: auto;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 980px) {
+
+    #threeOption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+    }
+
+}
+
+/* galerie photos */
+
+#titlePhotos {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#blocPhotos {
+    width: 80%;
+    padding: 60px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageAndLegend {
+    height: 250px;
+    margin: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    border: 3px solid #eaeaea;
+}
+
+.imageOne {
+    background-image: url('images/galerie/femmes-zanzibar.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+}
+
+.imageTwo {
+    background-image: url('images/galerie/plage-zanzibar.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 56.5%;
+}
+
+.imageThree {
+    background-image: url('images/galerie/epices-zanzibar.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+}
+
+.imageFour {
+    background-image: url('images/galerie/village-pecheur-zanzibar.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+.imageFive {
+    background-image: url('images/galerie//safari-blue.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+}
+
+figcaption {
+    margin-top: 200px;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 980px) {
+
+    #blocPhotos {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .imageAndLegend {
+        width: 80%;
+    }
+
+}
+
+/* ils ont adoré */
+
+#sectionTheyHadLove {
+    margin: 0;
+    background: linear-gradient(
+        rgba(96, 229, 235, 0.8),
+        rgba(96, 229, 235, 0.5)),
+        url('images/the-paysage.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+#titleLove {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+#blocLove {
+    width: 80%;
+    padding: 0px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.comment {
+    font-style: italic;
+    padding: 0;
+}
+
+.fa-quote-left {
+    color : #fff;
+}
+
+.imageClient {
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+
+/* blockquote:before {
+    content:"\201C";
+    font-size: 800%;
+    font-family: "Sanchez", serif;
+    position: relative;
+    top: 20px;
+    left: -13px;;
+    color: rgba(255,255,255,0.6)  
+} */
+
+cite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 980px) {
+
+    #sectionTheyHadLove {
+        margin: 0;
+        background: linear-gradient(
+            rgba(96, 229, 235, 0.8),
+            rgba(96, 229, 235, 0.5)),
+            url('images/the-paysage.jpg');
+        background-size: cover;
+    }
+    
+    
+    #blocLove {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+/* nos séjours */
+
+#titleOurHoliday {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.hrHoliday {
+    width: 100%;
+    color: #eaeaea;
+}
+
+#blocOurHoliday {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxHoliday {
+    border: 3px solid #eaeaea;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.boxHoliday:hover {
+    color: #fff;
+    background-color: #0ce0f5;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.titleHoliday{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4em;
+    margin-bottom: 0;
+    padding: 0 15px 0 15px;
+}
+
+.secondTitleHoliday {
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 15px 0 15px;
+}
+
+.pHoliday {
+    padding: 0 15px 0 15px;
+    margin: 0;
+}
+
+.fas {
+    color: #000;
+    font-size: 1em;
+}
+
+.linkInscription {
+    background-color: #05a8d1;
+    display: block;
+    width: 100px;
+    margin: 30px auto;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+    #blocOurHoliday {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* CONTACT */
+
+#sectionContact {
+    width: 80%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+
+#titleContact {
+    font-size: 3em;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-phone, .fa-map-marker-alt{
+    color: #000;
+    margin-bottom: 12px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+input {
+    margin-right: 35px;
+}
+
+#blocArea {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonSubmit {
+    margin-top: 10px;
+    background-color: #05a8d1;
+    padding: 5px 9px;
+    border-radius: 8px;
+    border: none;
+    color:  #444444;
+}
+
+#buttonSubmit:hover {
+    color: #fff;
+}
+
+iframe {
+    width: 800px;
+    height: 420px;
+    margin-left: 20px;;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+
+@media screen and (max-width: 980px) {
+    
+    #sectionContact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+    }
+
+    #titleContact {
+        font-size: 2em;
+    }
+
+    iframe {
+        margin: 30px auto;
+        width: 250px;
+        height: 250px;
+    }
+
+    form div {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
